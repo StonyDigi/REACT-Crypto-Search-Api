@@ -1,7 +1,7 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   background: linear-gradient(to right, rgb(48, 48, 252), rgb(84, 252, 165));
-  padding: 0;
+  padding: 30px;
   margin: 0;
   height: auto;
 }
@@ -28,11 +28,11 @@ body {
   padding: 2px;
   margin-top: 10px;
   outline: none;
-  box-shadow: 3px 5px 15px grey;
+  box-shadow: 3px 5px 15px rgb(157, 157, 157);
 }
 
 .crypto-header h1 {
-  text-shadow: 3px 5px 15px black;
+  text-shadow: 3px 5px 15px rgba(0,0,0,0.6);
 }
 
 
@@ -41,6 +41,13 @@ body {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   justify-items: center;
+}
+
+footer {
+  margin: 100px 0;
+  text-align: center;
+  color: rgb(104, 102, 102);
+  font-size: 20px;
 }
 
 @media(max-width: 1700px) {

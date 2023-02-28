@@ -9,7 +9,7 @@ import styled from 'styled-components'
         margin-bottom: 20px;
         border-radius: 10px;
         text-align: center;
-        box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+        box-shadow: 8px 5px 18px rgba(0,0,0,0.6);
         padding-top: 10px;
         padding: 38px 0;
 
@@ -34,14 +34,6 @@ import styled from 'styled-components'
         box-shadow: 3px 5px 15px grey;
     `;
 
-    const Pfooter = styled.p`
-
-        color: grey;
-        font-size: 12px;
-        
-
-    `;
-
     const StyledH2 = styled.h2`
     
         text-shadow: 3px 5px 15px grey;
@@ -57,7 +49,6 @@ const Coin = ({name, symbol, icon, price}) => {
         <h3>Ár: {Math.ceil(price*356)} HUF</h3>
         <h3>Icon: {symbol}</h3>
         <Button>Vétel</Button>
-        <Pfooter>&copy; Created by Somossy László</Pfooter>
     </CoinContainer>
   )
 }

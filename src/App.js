@@ -46,8 +46,8 @@ function App() {
 
         </div>
 
+        <footer>&copy; Created by Somossy László</footer>
         
-
     </div>
   );
 }
